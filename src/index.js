@@ -11,6 +11,7 @@ let resphomeact = document.querySelector('#resphome')
 let respmenuact = document.querySelector('#respmenu')
 let respaboutact = document.querySelector('#respabout')
 
+
 let menutoggle = document.querySelector('#menu-toggle')
 
 menutoggle.onclick = () =>{
@@ -18,20 +19,23 @@ menutoggle.onclick = () =>{
     let menuoptions = [resphomeact,respmenuact,respaboutact]
     
     menuoptions.forEach((option) => {
-        if(option.style.display == 'inline'){
+        if(option.classList.contains('menuoptionsvisible')){
             statusChecker = 1
-            console.log('test')
         } 
     })
 
     if(statusChecker == 1){
         menuoptions.forEach((option) => {
-            option.style.display = 'none';
+            option.classList.remove('menuoptionsvisible')
+            option.classList.add('menuoptionshidden')
+           
+         
+
         })
     } else  if ( statusChecker == 0){
         menuoptions.forEach((option) => {
-            option.style.display = 'inline';
-            console.log('test')
+            option.classList.remove('menuoptionshidden')
+            option.classList.add('menuoptionsvisible')
         })
     }
 }

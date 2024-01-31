@@ -34,7 +34,7 @@ nav {
   background-color: #f1f1f1;
   border-radius: 1rem;
   padding: 0.6rem;
-  gap: 2rem;
+  gap: 1rem;
   justify-content: space-around;
   transition: all 0.4s ease-in-out;
 }
@@ -75,7 +75,7 @@ nav > div:hover {
 }
 
 .texts-container > .subtext {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 }
 .home {
   display: flex;
@@ -88,7 +88,7 @@ nav > div:hover {
 .home > img {
   width: 90%;
   border-radius: 1rem;
-  max-width: 40rem;
+  max-width: 36rem;
 }
 
 @media screen and (max-width: 700px) {

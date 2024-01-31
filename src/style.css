@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+
+:root{
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+html, 
+body {
+    height: 100%;
+}
+
+body{
+    
+    margin: 0px;
+    display: grid;
+    grid-template-rows: 8rem 1fr ;
+    
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#header-logo{
+    font-size: 4rem;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+}
+
+nav{
+    display: flex;
+    background-color: #f1f1f1;
+    border-radius: 1rem;
+    padding: 0.6rem;
+    gap: 2rem;
+    justify-content: space-around;
+   
+}
+
+nav>div{
+background-color: #ffffff;
+transition: all 0.4s ease-in-out;
+border: 0.2rem solid #efefef;
+border-radius: 1rem;
+padding: 0.6rem;
+}
+
+nav>div:hover{
+    transform: scale(1.06);
+}
+
+.content{
+    display: flex;
+}
+
+.texts-container{
+    width: 90%;
+    max-width: 60rem;
+}

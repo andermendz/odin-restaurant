@@ -91,6 +91,7 @@ nav > div:hover {
   align-items: center;
   flex-wrap: wrap;
   margin-top: 1rem;
+  margin-bottom: 4rem ;
 }
 
 .home > img {
@@ -107,6 +108,7 @@ nav > div:hover {
   align-items: center;
   flex-wrap: wrap;
   margin-top: 1rem;
+  margin-bottom: 4rem ;
 }
 .about > .texts-container{
   text-align: center;
@@ -127,6 +129,7 @@ nav > div:hover {
   align-items: center;
   flex-wrap: wrap;
   margin-top: 1rem;
+  margin-bottom: 4rem ;
 }
 .menu > .texts-container{
   text-align: center;
@@ -137,6 +140,7 @@ nav > div:hover {
 .menu> .catmenus{
   display: flex;
   flex-wrap: wrap;
+  gap: 4rem;
   width: 90%;
   align-self: center;
   max-width: 80rem;
@@ -152,7 +156,8 @@ nav > div:hover {
   gap: 2rem;
 
   flex-flow: column;
-  width: 20rem;
+  width: 80%;
+  max-width: 24rem;
 }
 .menutitle{
   text-align: center;

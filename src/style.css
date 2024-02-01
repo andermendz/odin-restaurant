@@ -25,7 +25,7 @@ header {
 
 #header-logo {
   font-size: 4rem;
-  font-weight: 400;
+  font-weight: 600;
   margin-bottom: 0.5rem;
 }
 
@@ -65,30 +65,106 @@ nav > div:hover {
 }
 
 .texts-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
   width: 90%;
   align-self: center;
-  max-width: 40rem;
+  max-width: 60rem;
 }
 .texts-container > .title {
+  text-align: center;
   font-size: 4rem;
   font-weight: 600;
 }
 
 .texts-container > .subtext {
   font-size: 1.2rem;
+  text-align: left;
 }
 .home {
   display: flex;
+  flex-flow: column;
   gap: 2rem;
   justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
-  margin-top: 5rem;
+  margin-top: 1rem;
 }
 
 .home > img {
   width: 90%;
   border-radius: 1rem;
-  max-width: 36rem;
+  max-width: 46rem;
+}
+
+.about{
+  display: flex;
+  flex-flow: column;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+.about > .texts-container{
+  text-align: center;
+  max-width: 60rem;
+  
+}
+.about> img {
+  width: 90%;
+  border-radius: 1rem;
+  max-width: 40rem;
+}
+
+.menu{
+  display: flex;
+  flex-flow: column;
+  gap: 4rem;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+.menu > .texts-container{
+  text-align: center;
+  max-width: 60rem;
+  
+}
+
+.menu> .catmenus{
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  align-self: center;
+  max-width: 80rem;
+  
+  justify-content: space-around;
+}
+
+
+
+.menutype{
+
+  display: flex;
+  gap: 2rem;
+
+  flex-flow: column;
+  width: 20rem;
+}
+.menutitle{
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.menutype>img{
+  align-self: center;
+  height: 14rem;
+  border-radius: 1rem;
+  
 }
 
 @media screen and (max-width: 700px) {

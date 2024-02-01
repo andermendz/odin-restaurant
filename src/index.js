@@ -1,8 +1,10 @@
 import styles from './style.css';
 import home from './home';
+import menu from './menu';
+import about from './about';
 
 
-let content = document.querySelector('.content')
+
 let homeact = document.querySelector('#home')
 let menuact = document.querySelector('#menu')
 let aboutact = document.querySelector('#about')
@@ -41,18 +43,13 @@ menutoggle.onclick = () =>{
 }
   
 
+home();
 
-  
-  
-        
-
-       
-     
-
-  
-
-
-
-
-home()
 homeact.onclick = home;
+menuact.onclick = menu;
+aboutact.onclick = about;
+
+resphomeact.onclick = home;
+respmenuact.onclick = menu;
+respaboutact.onclick = about;
+
